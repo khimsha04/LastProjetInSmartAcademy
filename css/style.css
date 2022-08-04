@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+}
+
+.header-container {
+  width: 100%;
+  height: 924px;
+  background-color: #dddddd;
+}
+.roca {
+  width: 100%;
+  max-width: 100%;
+  height: 56px;
+  color: #1a1a1a;
+  font-size: 40px;
+  position: absolute;
+  top: 48px;
+  left: 52px;
+}
+.resume-template {
+  width: 100%;
+  max-width: 118px;
+  height: 16px;
+  font-size: 13px;
+  color: #b3b3b3;
+  position: absolute;
+  top: 95px;
+  left: 52px;
+}
+.nullandzero {
+  width: 100%;
+  max-width: 170px;
+  height: 220px;
+  font-size: 158px;
+  color: #1c1c1c;
+  position: absolute;
+  top: 25px;
+  right: 118px;
+}
+.about-me {
+  width: 100%;
+  max-width: 226px;
+  height: 60px;
+  font-size: 44px;
+  color: #373737;
+  position: absolute;
+  top: 106px;
+  right: 82px;
+}
+.header-middle {
+  width: 100%;
+  max-width: 582px;
+  height: 292px;
+  color: #212121;
+  position: absolute;
+  top: 384px;
+  right: 308px;
+  display: flex;
+}
+.h4 {
+  color: #212121;
+  font-size: 50px;
+  text-align: left;
+}
+.h1 {
+  color: #212121;
+  font-size: 71px;
+  text-align: left;
+  margin-top: 20px;
+}
+.h6 {
+  text-align: left;
+  color: #212121;
+  font-size: 23.29px;
+  margin-top: 15px;
+}
+.logos {
+  margin-top: 60px;
+}
+.logos img {
+  margin-right: 15px;
+}
+.h5 {
+  color: #212121;
+  font-size: 24px;
+  position: absolute;
+  top: 858px;
+  right: 184px;
+}
+
+.hundreedProcent:hover {
+  color: #e93656;
+}
+.header_bottom .div2 {
+  width: 340px;
+  height: 6px;
+  background: #e93656;
+  margin-top: 20px;
+  position: absolute;
+  top: 880px;
+  right: 66px;
+}
+.images {
+  margin-left: -600px;
+  margin-top: -180px;
+  width: 650px;
+}
