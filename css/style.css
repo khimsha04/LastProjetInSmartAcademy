@@ -13,10 +13,11 @@ body {
 /* start header */
 .header-container {
   width: 100%;
-  /* max-width: 1920px; */
+  max-width: 1920px;
   height: 924px;
   background-color: #dddddd;
 }
+
 .roca {
   width: 100%;
   max-width: 200px;
@@ -62,14 +63,16 @@ body {
   right: 82px;
 }
 .header-middle {
-  width: 100%;
   max-width: 582px;
   height: 292px;
   color: #212121;
+
+  display: flex;
+}
+.div2 {
   position: absolute;
   top: 384px;
-  right: 308px;
-  display: flex;
+  right: 290px;
 }
 .h4 {
   color: #212121;
@@ -115,22 +118,23 @@ body {
   top: 880px;
   right: 66px;
 }
-.images {
-  margin-left: -600px;
-  margin-top: -180px;
-  width: 650px;
+.zuka1 {
+  max-width: 400px;
+  height: 390px;
+  margin-left: 10px;
+  margin-top: 163px;
 }
 .zuka2 {
-  margin-left: -655px;
-  width: 860px;
-  height: 890px;
-  margin-top: -900px;
+  max-width: 384px;
+  margin-left: 10px;
+  margin-top: -396px;
+  height: 412px;
 }
 .zuka3 {
-  margin-left: -655px;
-  width: 860px;
-  height: 910px;
-  margin-top: -921px;
+  max-width: 400px;
+  height: 450px;
+  margin-left: 10px;
+  margin-top: -420px;
 }
 
 /* finish header */
@@ -253,7 +257,7 @@ body {
 /* /* finish section first/ */
 /* start contact block */
 .contactblock {
-  width: 100%;
+  max-width: 100%;
   height: 210px;
   background-color: #131a36;
   color: white;
@@ -270,7 +274,9 @@ body {
 }
 .phoneimg:hover {
   background-color: #e93656;
-  width: 100px;
+}
+.contactblockdiv {
+  margin: 20px;
 }
 .phone {
   font-size: 25px;
@@ -283,4 +289,119 @@ body {
 }
 .displayflex {
   display: flex;
+  margin-left: 50px;
+}
+/* finish contact block */
+/* start sevrices section */
+.sectionservices {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.sectionservicesdiv:hover {
+  background-color: #15263e;
+  image-resolution: none;
+}
+/* .sectionservices-img {
+  display: none;
+} */
+.sectionservices-img {
+  width: 60px;
+  height: 60px;
+}
+.sectionservicesdiv {
+  width: 285px;
+  height: 360px;
+  background-color: #fafafa;
+  margin: 10px;
+}
+.d-flex {
+  display: flex;
+}
+.servicesimg1 {
+  position: absolute;
+  top: 2130px;
+  left: 200px;
+}
+.servicesspan1 {
+  position: absolute;
+  top: 2200px;
+  left: 166px;
+  font-size: 22px;
+}
+.servicesimg2 {
+  position: absolute;
+  top: 2130px;
+  left: 500px;
+}
+.servicesspan2 {
+  position: absolute;
+  top: 2200px;
+  left: 474px;
+  font-size: 22px;
+}
+.servicesimg3 {
+  position: absolute;
+  top: 2130px;
+  left: 800px;
+}
+.servicesspan3 {
+  position: absolute;
+  top: 2200px;
+  left: 766px;
+  font-size: 22px;
+}
+.servicesimg4 {
+  position: absolute;
+  top: 2130px;
+  left: 1090px;
+}
+.servicesspan4 {
+  position: absolute;
+  top: 2200px;
+  left: 1056px;
+  font-size: 22px;
+}
+.servicesimg5 {
+  position: absolute;
+  top: 2490px;
+  left: 200px;
+}
+.servicesspan5 {
+  position: absolute;
+  top: 2560px;
+  left: 170px;
+  font-size: 22px;
+}
+.servicesimg6 {
+  position: absolute;
+  top: 2490px;
+  left: 500px;
+}
+.servicesspan6 {
+  position: absolute;
+  top: 2560px;
+  left: 458px;
+  font-size: 22px;
+}
+.servicesimg7 {
+  position: absolute;
+  top: 2490px;
+  left: 800px;
+}
+.servicesspan7 {
+  position: absolute;
+  top: 2560px;
+  left: 760px;
+  font-size: 22px;
+}
+.servicesimg8 {
+  position: absolute;
+  top: 2490px;
+  left: 1090px;
+}
+.servicesspan8 {
+  position: absolute;
+  top: 2560px;
+  left: 1050px;
+  font-size: 22px;
 }
