@@ -41,6 +41,7 @@ body {
   position: absolute;
   top: 95px;
   left: 52px;
+  font-family: "Montserrat-Regular", sans-serif;
 }
 .nullandzero {
   width: 100%;
@@ -72,24 +73,28 @@ body {
 .div2 {
   position: absolute;
   top: 384px;
-  right: 290px;
+  right: 260px;
 }
 .h4 {
   color: #212121;
   font-size: 50px;
   text-align: left;
+  font-family: "GlacialIndifference-Regular";
 }
 .h1 {
   color: #212121;
   font-size: 71px;
   text-align: left;
   margin-top: 20px;
+  font-family: "GlacialIndifference-Bold";
 }
 .h6 {
   text-align: left;
   color: #212121;
   font-size: 23.29px;
   margin-top: 15px;
+  font-family: Montserrat-Regular;
+  font-family: "GlacialIndifference-Regular";
 }
 .logos {
   margin-top: 60px;
@@ -103,20 +108,21 @@ body {
   position: absolute;
   top: 858px;
   right: 184px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .hundreedProcent:hover {
   color: #e93656;
   cursor: pointer;
 }
-.header_bottom .div2 {
+.header_bottom #div2 {
   width: 340px;
   height: 6px;
   background: #e93656;
   margin-top: 20px;
   position: absolute;
   top: 880px;
-  right: 66px;
+  right: 96px;
 }
 .zuka1 {
   max-width: 400px;
@@ -178,6 +184,7 @@ body {
   font-size: 15px;
   width: 334px;
   margin-top: 33px;
+  font-family: "Montserrat-Regular", sans-serif;
 }
 .sectionfirstblock button {
   width: 152px;
@@ -269,11 +276,18 @@ body {
 }
 .phoneimg {
   border-radius: 50%;
-  width: 90px;
+  width: 36px;
   cursor: pointer;
+  margin: 30px;
 }
-.phoneimg:hover {
+.cellphoneimg {
+  border: 1px dotted;
+  border-radius: 50%;
+  width: 99px;
+}
+.cellphoneimg:hover {
   background-color: #e93656;
+  cursor: pointer;
 }
 .contactblockdiv {
   margin: 20px;
@@ -298,12 +312,9 @@ body {
   margin: 0 auto;
 }
 .sectionservicesdiv:hover {
-  background-color: #15263e;
-  image-resolution: none;
+  background-color: blue;
 }
-/* .sectionservices-img {
-  display: none;
-} */
+
 .sectionservices-img {
   width: 60px;
   height: 60px;
@@ -404,4 +415,69 @@ body {
   top: 2560px;
   left: 1050px;
   font-size: 22px;
+}
+/* finish services setion */
+/* start sectionrecomend */
+.sectionrecomend {
+  width: 100%;
+  max-width: 1920px;
+  height: 570px;
+  background-image: url(../images/background.png);
+  background-repeat: repeat-x;
+  margin-top: 160px;
+}
+.sectionrecomend01 {
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sectionrecomend-p {
+  max-width: 496px;
+  width: 100%;
+  height: 78px;
+  color: white;
+  font-size: 15px;
+  text-align: end;
+}
+.sectionrecomendimgback {
+  width: 170px;
+  border-radius: 40%;
+  border: 1px dotted;
+  color: white;
+}
+.sectionrecomendimg {
+  width: 140px;
+  height: 140px;
+  border-radius: 40%;
+  margin: 10px;
+}
+.quotationmark {
+  width: 50px;
+  height: 50px;
+  /* position: absolute;
+  top: 3000px;
+  right: 200px; */
+}
+.sectionrecomendspan {
+  color: white;
+  font-size: 13px;
+}
+.sectionrecomendspan:hover {
+  color: #e93656;
+}
+.sectionrecomendspan1 {
+  font-size: 28px;
+  color: white;
+}
+.sectionrecomendspan1:hover {
+  color: #e93656;
+}
+.pxblock {
+  width: 13px;
+  height: 13px;
+  border: 2px solid;
+  color: white;
+  margin: 10px;
+}
+.pxblock:hover {
+  color: #e93656;
 }
