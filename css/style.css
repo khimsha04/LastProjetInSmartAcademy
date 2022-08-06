@@ -5,7 +5,12 @@
   text-decoration: none;
   list-style: none;
 }
-
+p,
+a,
+button,
+span {
+  cursor: pointer;
+}
 body {
   width: 100%;
   /* max-width: 1920px; */
