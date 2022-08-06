@@ -226,22 +226,22 @@ body {
   margin-top: 15px;
 }
 .progress_bar-1 {
-  width: 240px;
+  width: 302px;
   height: 9px;
   background: #e93656;
 }
 .progress_bar-2 {
-  width: 195px;
+  width: 240px;
   height: 9px;
   background: #e93656;
 }
 .progress_bar-3 {
-  width: 150px;
+  width: 174px;
   height: 9px;
   background: #e93656;
 }
 .progress_bar-4 {
-  width: 90px;
+  width: 208px;
   height: 9px;
   background: #e93656;
 }
@@ -480,4 +480,259 @@ body {
 }
 .pxblock:hover {
   color: #e93656;
+}
+/* finish section recomend */
+/* start LatestProjects */
+.LatestProjects {
+  width: 100%;
+  max-width: 1170px;
+  height: 848px;
+  margin: auto;
+}
+.LatestProjectsspan1 {
+  width: 100%;
+  max-width: 444px;
+  height: 94px;
+  color: #2e2e2e;
+  font-size: 70px;
+  text-align: center;
+  align-items: center;
+  margin-left: 30%;
+}
+.LatestProjectslist {
+  width: 100%;
+  max-width: 240px;
+  height: 400px;
+  color: white;
+  background-color: #15263e;
+  /* margin: 0 auto; */
+}
+.LatestProjectsul {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 160px;
+  padding: 5px;
+}
+.LatestProjectsli {
+  align-items: center;
+  margin: 20px;
+
+  font-size: 20px;
+  /* margin-left: 60px; */
+  text-align: center;
+  /* padding: 5px; */
+}
+.LatestProjectsli:hover {
+  color: #e93656;
+}
+.LatestProjectsdiv-container {
+  width: 100%;
+  max-width: 900px;
+  height: 700px;
+  margin: 0 auto;
+}
+.LatestProjectsalldiv {
+  margin-bottom: 30px;
+}
+.divblock1 {
+  background-color: #555555;
+  width: 300px;
+  height: 350px;
+}
+.divblock2 {
+  background-color: #000000;
+  width: 300px;
+  height: 350px;
+}
+.divblock3 {
+  background-color: #555555;
+  width: 300px;
+  height: 350px;
+}
+.divblock4 {
+  background-color: #848484;
+  width: 300px;
+  height: 350px;
+}
+.divblock5 {
+  background-color: #555555;
+  width: 300px;
+  height: 350px;
+}
+.divblock6 {
+  background-color: #848484;
+  width: 300px;
+  height: 350px;
+}
+.LatestProjectsdivborder1 {
+  border: 2px solid #e93656;
+  position: absolute;
+  border-radius: 50%;
+  width: 30px;
+  top: 3700px;
+  left: 455px;
+}
+
+.LatestProjectsimg1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 4px;
+}
+.LatestProjectsspan01 {
+  color: #dddddd;
+  position: absolute;
+  top: 3750px;
+  left: 428px;
+  font-size: 11px;
+}
+.LatestProjectsspan02 {
+  position: absolute;
+  top: 3790px;
+  left: 414px;
+  color: white;
+  font-size: 23px;
+}
+
+.LatestProjectsdivborder2 {
+  border: 2px solid #e93656;
+  position: absolute;
+  border-radius: 50%;
+  width: 30px;
+  top: 3700px;
+  left: 778px;
+}
+.LatestProjectsimg2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 4px;
+}
+.LatestProjectsspan03 {
+  color: #dddddd;
+  position: absolute;
+  top: 3750px;
+  left: 750px;
+  font-size: 11px;
+}
+.LatestProjectsspan04 {
+  position: absolute;
+  top: 3790px;
+  left: 706px;
+  color: white;
+  font-size: 23px;
+}
+.LatestProjectsdivborder3 {
+  border: 2px solid #e93656;
+  position: absolute;
+  border-radius: 50%;
+  width: 30px;
+  top: 3700px;
+  left: 1078px;
+}
+.LatestProjectsimg3 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 4px;
+}
+.LatestProjectsspan05 {
+  color: #dddddd;
+  position: absolute;
+  top: 3750px;
+  left: 1050px;
+  font-size: 11px;
+}
+.LatestProjectsspan06 {
+  position: absolute;
+  top: 3790px;
+  left: 1006px;
+  color: white;
+  font-size: 23px;
+}
+.LatestProjectsdivborder4 {
+  border: 2px solid #e93656;
+  position: absolute;
+  border-radius: 50%;
+  width: 30px;
+  top: 4050px;
+  left: 455px;
+}
+
+.LatestProjectsimg4 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 4px;
+}
+.LatestProjectsspan07 {
+  color: #dddddd;
+  position: absolute;
+  top: 4100px;
+  left: 428px;
+  font-size: 11px;
+}
+.LatestProjectsspan08 {
+  position: absolute;
+  top: 4150px;
+  left: 448px;
+  color: white;
+  font-size: 23px;
+}
+.LatestProjectsdivborder5 {
+  border: 2px solid #e93656;
+  position: absolute;
+  border-radius: 50%;
+  width: 30px;
+  top: 4050px;
+  left: 778px;
+}
+.LatestProjectsimg5 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 4px;
+}
+.LatestProjectsspan09 {
+  color: #dddddd;
+  position: absolute;
+  top: 4100px;
+  left: 750px;
+  font-size: 11px;
+}
+.LatestProjectsspan10 {
+  position: absolute;
+  top: 4150px;
+  left: 734px;
+  color: white;
+  font-size: 23px;
+}
+.LatestProjectsdivborder6 {
+  border: 2px solid #e93656;
+  position: absolute;
+  border-radius: 50%;
+  width: 30px;
+  top: 4050px;
+  left: 1078px;
+}
+.LatestProjectsimg6 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 4px;
+}
+.LatestProjectsspan11 {
+  color: #dddddd;
+  position: absolute;
+  top: 4100px;
+  left: 1050px;
+  font-size: 11px;
+}
+.LatestProjectsspan12 {
+  position: absolute;
+  top: 4150px;
+  left: 1070px;
+  color: white;
+  font-size: 23px;
 }
