@@ -210,6 +210,8 @@ body {
   width: 430px;
   height: 603px;
   margin: 0 auto;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
 .skills h6 {
@@ -253,17 +255,17 @@ body {
 .sectionthreeblock {
   margin: 0 auto;
 }
-.sectionthreeblock .blocks {
+.sectionthreeblock .blockall {
   display: flex;
   margin-top: 78px;
 }
-.sectionthreeblock .block {
+.sectionthreeblock .blocks {
   width: 50px;
   height: 50px;
   background: #f9f9f9;
   margin-right: 5px;
 }
-.block:hover {
+.blocks:hover {
   background-color: #15263e;
 }
 /* /* finish section first/ */
@@ -802,6 +804,7 @@ body {
   height: 590px;
   background-color: #fafafa;
   padding-left: 0px;
+  display: block;
 }
 .NEWSEVENT {
   width: 90px;
@@ -849,22 +852,22 @@ body {
   justify-content: start;
 }
 .backgrouncolor {
-  max-width: 664px;
+  max-width: 950px;
   width: 100%;
   height: 590px;
   background-color: #e1e0dc;
-  position: absolute;
+  /* position: absolute;
   top: 4515px;
-  left: 684px;
+  left: 684px; */
 }
 .experience {
   width: 100%;
   max-width: 124px;
   height: 590px;
   background-color: #15263e;
-  position: absolute;
+  /* position: absolute;
   top: 0%;
-  left: 0%;
+  left: 0%; */
 }
 .years {
   width: 167px;
@@ -902,31 +905,25 @@ body {
   max-width: 124px;
   height: 590px;
   background-color: #15263e;
-  position: absolute;
+  /* position: absolute;
   top: 0%;
-  left: 0%;
+  left: 0%; */
+  margin-left: 82%;
 }
 .article1 {
   margin-left: 100px;
+  display: flex;
 }
 .backgrouncolor2 {
-  max-width: 684px;
+  max-width: 970px;
   width: 100%;
   height: 590px;
   background-color: #e1e0dc;
-  position: absolute;
+  /* position: absolute;
   top: 5034px;
-  left: 0;
+  left: 0; */
 }
-.experience2 {
-  width: 100%;
-  max-width: 124px;
-  height: 590px;
-  background-color: #15263e;
-  position: absolute;
-  top: 0%;
-  left: 82%;
-}
+
 .years2 {
   width: 167px;
   height: 284px;
@@ -957,20 +954,27 @@ body {
   height: 140px;
   justify-content: start;
 }
+.article2 {
+  display: flex;
+}
 .article2-container {
   width: 100%;
-  position: absolute;
+  max-width: 800px;
+  /* position: absolute;
   top: 5034px;
-  left: 685px;
+  left: 685px; */
   background-color: #fafafa;
   height: 590px;
   max-width: 660px;
-  padding-left: 106px;
+  padding-left: 88px;
+  display: block;
+}
+.trheeartcile {
+  display: block;
+  margin-left: 85px;
 }
 .article3 {
-  position: absolute;
-  top: 5624px;
-  left: 103px;
+  display: flex;
   padding-left: 5px;
   /* max-width: 611px; */
   width: 667px;
@@ -1008,22 +1012,151 @@ body {
   margin-bottom: 36px;
 }
 .backgrouncolor3 {
-  width: 664px;
+  width: 704px;
+  max-width: 950px;
   height: 590px;
   background-color: #e1e0dc;
-  position: absolute;
-  left: 580px;
-  top: 0px;
 }
 .experience3 {
   width: 100%;
   max-width: 124px;
   height: 590px;
   background-color: #15263e;
-  position: absolute;
-  top: 0%;
-  left: 0%;
 }
+/* start rosateam */
+.rosateam {
+  width: 100%;
+  max-width: 1170px;
+  height: 370px;
+  margin: 0 auto;
+  margin-top: 100px;
+  /* position: relative;
+  transition: opacity 0.2s, ease; */
+}
+.rosateamlogos {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-evenly;
+}
+/* .rosateamtext {
+  width: 230px;
+  height: 190px;
+  text-align: center;
+} */
+/* .hoverlogo:hover div {
+  display: none;
+}
+.rosateam:hover .span {
+  opacity: 1;
+} */
+/* start footer map */
+.container-map {
+  background-image: url(../images/background2.png);
+  height: 660px;
+  margin-top: 100px;
+}
+.footercontainer1 {
+  max-width: 890px;
+  width: 100px;
+  margin: 0 auto;
+}
+.contactus {
+  width: 270px;
+  height: 60px;
+  color: white;
+  font-size: 45px;
+  margin-left: 40%;
+}
+.lorem {
+  color: white;
+  font-size: 14px;
+  margin-left: 35%;
+}
+.form {
+  justify-content: center;
+}
+.name-form {
+  width: 290px;
+  height: 50px;
+  padding: 20px;
+  color: #fafafa;
+}
+.form-field {
+  padding: 10px;
+}
+.user-message {
+  width: 100%;
+  max-width: 910px;
+  height: 110px;
+  margin-left: 220px;
+}
+.footerform {
+  margin-top: 100px;
+}
+#message {
+  padding: 20px;
+  font-size: 15px;
+}
+#button {
+  width: 190px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 40%;
+  background-color: transparent;
+  border: 2px solid;
+}
+#button:hover {
+  color: #e93656;
+}
+.footerbottom {
+  width: 100%;
+  max-width: 1923px;
+  height: 490px;
+  background-color: #282828;
+}
+.roca2 {
+  width: 158px;
+  height: 78px;
+  color: #ffffff;
+  font-size: 56px;
+}
+.rocabottom {
+  margin-left: 45%;
+  padding-top: 10%;
+}
+.footerbottom-span {
+  color: #e93656;
+  font-size: 33px;
+}
+.lastp {
+  width: 614px;
+  height: 162px;
+  font-size: 17px;
+  color: #a5a5a5;
+  text-align: center;
+  margin-left: 30%;
+}
+.logos2 {
+  padding-left: 40%;
+}
+.logosA {
+  margin: 10px;
+}
+.endfooter {
+  background-color: #171717;
+  width: 100%;
+  max-width: 1923px;
+  height: 82px;
+}
+.copypaste {
+  width: 512px;
+  height: 20px;
+  font-size: 15px;
+  color: #a5a5a5;
+  margin-left: 35%;
+  padding-top: 2%;
+}
+
 @media only screen and (max-width: 1024px) {
   .header-top {
     display: none;
