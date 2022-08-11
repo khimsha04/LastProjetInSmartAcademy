@@ -315,9 +315,51 @@ body {
 .sectionservices {
   max-width: 1170px;
   margin: 0 auto;
+  position: relative;
+}
+
+/* .sectionservicesdiv:hover {
+  background-color: #15263e;
+}
+.sectionservicesp {
+  color: #ececec;
+  font-size: 15px;
+  font-family: Muli-Light;
+  text-align: center;
+  opacity: 0;
+  position: absolute;
+  color: black;
+  width: 300px;
+} */
+.sectionservicesdiv {
+  /* width: 285px; */
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: #fafafa;
+  background-size: contain;
+  position: relative;
+  transition: opacity 0.2s, ease;
+}
+.sectionservicesdiv p {
+  color: #ececec;
+  font-size: 15px;
+  font-family: Muli-Light;
+  text-align: center;
+  opacity: 0;
+  position: absolute;
 }
 .sectionservicesdiv:hover {
-  background-color: blue;
+  background-color: #15263e;
+}
+.sectionservicesdiv:hover div {
+  display: none;
+}
+.sectionservicesdiv:hover .sectionservicesp {
+  opacity: 1;
 }
 
 .sectionservices-img {
@@ -333,7 +375,14 @@ body {
 .d-flex {
   display: flex;
 }
-.servicesimg1 {
+.servicesimg {
+  margin-left: 0%;
+}
+.servicesspan {
+  font-size: 22px;
+  display: block;
+}
+/* .servicesimg1 {
   position: absolute;
   top: 2130px;
   left: 200px;
@@ -420,7 +469,7 @@ body {
   top: 2560px;
   left: 1050px;
   font-size: 22px;
-}
+} */
 /* finish services setion */
 /* start sectionrecomend */
 .sectionrecomend {
@@ -428,12 +477,16 @@ body {
   max-width: 1920px;
   height: 570px;
   background-image: url(../images/background.png);
-  background-repeat: repeat-x;
   margin-top: 160px;
 }
+.margin50px {
+  margin: 50px;
+}
 .sectionrecomend01 {
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  text-align: center;
+  padding-top: 15%;
 }
 .sectionrecomend-p {
   max-width: 496px;
@@ -455,13 +508,7 @@ body {
   border-radius: 40%;
   margin: 10px;
 }
-.quotationmark {
-  width: 50px;
-  height: 50px;
-  /* position: absolute;
-  top: 3000px;
-  right: 200px; */
-}
+
 .sectionrecomendspan {
   color: white;
   font-size: 13px;
@@ -493,6 +540,7 @@ body {
   max-width: 1170px;
   height: 848px;
   margin: auto;
+  margin-top: 100px;
 }
 .LatestProjectsspan1 {
   width: 100%;
@@ -746,6 +794,9 @@ body {
 }
 /* finish latestproject */
 /* start latest articles */
+.latestarticles {
+  margin-top: 100px;
+}
 .firstarticle {
   max-width: 584px;
   height: 590px;
@@ -803,7 +854,7 @@ body {
   height: 590px;
   background-color: #e1e0dc;
   position: absolute;
-  top: 4444px;
+  top: 4515px;
   left: 684px;
 }
 .experience {
@@ -910,7 +961,7 @@ body {
   width: 100%;
   position: absolute;
   top: 5034px;
-  left: 688px;
+  left: 685px;
   background-color: #fafafa;
   height: 590px;
   max-width: 660px;
