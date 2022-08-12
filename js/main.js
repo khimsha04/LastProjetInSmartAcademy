@@ -1,49 +1,49 @@
-// let i = 0;
-// let images = [];
-// let time = 1000;
-
-// images[0] = document.querySelector(".zuka1");
-// images[1] = document.querySelector("zuka2");
-// images[2] = document.querySelector("zuka3");
-// console.log(images[0]);
-// function changeImages() {
-//   document.slide.src = images[i];
-
-//   if (i < images.length - 1) {
-//     i++;
-//   }
-//   setTimeout("changeImages()", time);
+// let indexValue = 1;
+// showImg(indexValue);
+// function blockall(e) {
+//   showImg((indexValue = e));
 // }
-// window.onload = changeImages;
-////
-// let slideIndex = 1;
-// showSlides(slideIndex);
-
-// function plusSlides(n) {
-//   showSlides((slideIndex += n));
+// function showImg(e) {
+//   let i;
+//   const img = document.querySelectorAll(".sectionsecondblock");
+//   const slider = document.querySelectorAll(".blockall .blocks");
+//   if (e > img.length) {
+//     indexValue = 1;
+//   }
+//   if (e < 1) {
+//     indexValue = img.length;
+//   }
+//   for (i = 0; i < img.length; i++) {
+//     img[i].style.display = "none";
+//   }
+//   for (i = 0; i < slider.length; i++) {
+//     slider[i].style.background = "#f9f9f9";
+//   }
+//   img[indexValue - 1].style.display = "block";
+//   slider[indexValue - 1].style.background = "#15263e";
 // }
-
-// function currentSlide(n) {
-//   showSlides((slideIndex = n));
-// }
-
-// function showSlides(n) {
-//   let i = 0;
-//   let slides = document.querySelector(".slidesphoto");
-//   let dots = document.querySelector(".blocks");
-//   console.log(slides);
-//   if (n > slides.length) {
-//     slideIndex = 1;
-//   }
-//   if (n < 1) {
-//     slideIndex = slides.length;
-//   }
-//   for (i = 0; i < slides.length; i++) {
-//     slides[i].style.display = "none";
-//   }
-//   for (i = 0; i < dots.length; i++) {
-//     dots[i].className = dots[i].className.replace(" blocks", "");
-//   }
-//   slides[slideIndex - 1].style.display = "block";
-//   dots[slideIndex - 1].className += " active";
-// }
+/////
+let indexValue1 = 1;
+showImg1(indexValue1);
+function pxblockall(e) {
+  showImg1((indexValue1 = e));
+}
+function showImg1(e) {
+  let i;
+  const img1 = document.querySelectorAll(".slide");
+  const slider1 = document.querySelectorAll(".pxblockall .pxblock");
+  if (e > img1.length) {
+    indexValue1 = 1;
+  }
+  if (e < 1) {
+    indexValue1 = img1.length;
+  }
+  for (i = 0; i < img1.length; i++) {
+    img1[i].style.display = "none";
+  }
+  for (i = 0; i < slider1.length; i++) {
+    slider1[i].style.background = "#f9f9f9";
+  }
+  img1[indexValue1 - 1].style.display = "flex";
+  slider1[indexValue1 - 1].style.background = "#e93656";
+}
