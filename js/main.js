@@ -1,27 +1,26 @@
-// let indexValue = 1;
-// showImg(indexValue);
-// function blockall(e) {
-//   showImg((indexValue = e));
-// }
-// function showImg(e) {
-//   let i;
-//   const img = document.querySelectorAll(".sectionsecondblock");
-//   const slider = document.querySelectorAll(".blockall .blocks");
-//   if (e > img.length) {
-//     indexValue = 1;
-//   }
-//   if (e < 1) {
-//     indexValue = img.length;
-//   }
-//   for (i = 0; i < img.length; i++) {
-//     img[i].style.display = "none";
-//   }
-//   for (i = 0; i < slider.length; i++) {
-//     slider[i].style.background = "#f9f9f9";
-//   }
-//   img[indexValue - 1].style.display = "block";
-//   slider[indexValue - 1].style.background = "#15263e";
-// }
+ let indexValue = 1;
+ showImg(indexValue);
+ function blockall(e) {
+  showImg((indexValue = e));
+}
+ function showImg(e) {
+   let i;
+  const img = document.querySelectorAll(".sectionsecondblock");
+ const slider = document.querySelectorAll(".blockall .blocks");   if (e > img.length) {
+     indexValue = 1;
+   }
+  if (e < 1) {
+     indexValue = img.length;
+   }
+   for (i = 0; i < img.length; i++) {
+    img[i].style.display = "none";
+   }
+  for (i = 0; i < slider.length; i++) {
+    slider[i].style.background = "#f9f9f9";
+   }
+  img[indexValue - 1].style.display = "block";
+   slider[indexValue - 1].style.background = "#15263e";
+ }
 /////
 let indexValue1 = 1;
 showImg1(indexValue1);
