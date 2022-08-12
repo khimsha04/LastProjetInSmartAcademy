@@ -21,6 +21,9 @@ body {
   max-width: 1920px;
   height: 924px;
   background-color: #dddddd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .roca {
@@ -76,9 +79,10 @@ body {
   display: flex;
 }
 .div1 {
-  position: absolute;
-  top: 384px;
-  right: 260px;
+  height: 300px;
+  position: relative;
+  top: 0%;
+  left: 0%;
 }
 .h4 {
   color: #212121;
@@ -136,9 +140,7 @@ body {
   margin-top: 163px;
 }
 .zuka2 {
-  max-width: 384px;
-  margin-left: 10px;
-  margin-top: -396px;
+  max-width: 400px;
   height: 412px;
 }
 .zuka3 {
@@ -590,6 +592,11 @@ body {
 .LatestProjectsalldiv {
   margin-bottom: 30px;
 }
+.LatestProjectsPhoto {
+  width: 100%;
+  max-width: 300px;
+  height: 350px;
+}
 .divblock1 {
   background-color: #555555;
   width: 300px;
@@ -860,14 +867,20 @@ body {
   top: 4515px;
   left: 684px; */
 }
+.firstArticleBackGPhoto {
+  max-width: 950px;
+  width: 100%;
+  height: 590px;
+  position: relative;
+}
 .experience {
   width: 100%;
   max-width: 124px;
   height: 590px;
   background-color: #15263e;
-  /* position: absolute;
-  top: 0%;
-  left: 0%; */
+  position: absolute;
+  top: 4516px;
+  left: 656px;
 }
 .years {
   width: 167px;
@@ -905,10 +918,9 @@ body {
   max-width: 124px;
   height: 590px;
   background-color: #15263e;
-  /* position: absolute;
-  top: 0%;
-  left: 0%; */
-  margin-left: 82%;
+  position: absolute;
+  top: 5106px;
+  left: 564px;
 }
 .article1 {
   margin-left: 100px;
@@ -922,6 +934,12 @@ body {
   /* position: absolute;
   top: 5034px;
   left: 0; */
+}
+.applicationdesign2 {
+  max-width: 970px;
+  width: 100%;
+  height: 590px;
+  position: relative;
 }
 
 .years2 {
@@ -1017,11 +1035,20 @@ body {
   height: 590px;
   background-color: #e1e0dc;
 }
+.personaladviser2 {
+  width: 704px;
+  max-width: 950px;
+  height: 590px;
+  position: relative;
+}
 .experience3 {
   width: 100%;
   max-width: 124px;
   height: 590px;
   background-color: #15263e;
+  position: absolute;
+  top: 5695px;
+  left: 644px;
 }
 /* start rosateam */
 .rosateam {
@@ -1118,7 +1145,7 @@ body {
   width: 158px;
   height: 78px;
   color: #ffffff;
-  font-size: 56px;
+  font-size: 60px;
 }
 .rocabottom {
   margin-left: 45%;
@@ -1157,43 +1184,79 @@ body {
   padding-top: 2%;
 }
 
-@media only screen and (max-width: 1024px) {
-  .header-top {
+@media screen and (max-width: 1024px) {
+  .header-container {
+    width: 1348px;
+    padding: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 924px;
+    background-color: #dddddd;
+  }
+  .header_top {
     display: none;
   }
-  .images {
-    display: none;
-  }
-  .h1 {
-    font-size: 25px;
+  .zuka2 {
+    max-width: 400px;
+    height: 412px;
+    margin-top: 0%;
   }
   .div1 {
-    position: sticky;
-    transform: translate(100%, 30%);
+    height: 250px;
+    position: relative;
+    top: 0%;
+    left: 0%;
   }
-  .roca,
-  .resume-template {
+  .header_bottom {
     display: none;
   }
-  .logos {
-    margin-top: 30px;
+  .section-container {
+    margin: 20px;
+    padding: 85px;
+    max-width: 100%;
+    /* margin-top: 135px; */
+    height: 703px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
-
-  .about-me,
-  .nullandzero {
+  .sectionfirstblock,
+  .sectionfirstblockmedia {
+    margin: 33px;
+    margin-left: 100%;
+  }
+  .sectionthreeblock {
+    margin: 20px;
+  }
+  .contactblock {
+    max-width: 1348px;
+    height: 210px;
+    background-color: #131a36;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .sectionservices {
+    width: 1024px;
+    /* margin-left: 80px; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .section-container,
+  .contactblock,
+  .sectionservices,
+  .sectionrecomend,
+  .LatestProjects,
+  .latestartciles,
+  .rosateam,
+  .form,
+  .footer {
     display: none;
-  }
-
-  .div2 {
-    position: absolute;
-
-    top: 422px;
-    right: 216px;
-    width: 284px;
-  }
-  .h5 {
-    position: absolute;
-    top: 400px;
-    left: 266px;
   }
 }
